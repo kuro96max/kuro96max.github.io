@@ -1,0 +1,39 @@
+
+:root {
+  --color-primary: #2f67ec;
+}
+
+
+.navbar-icon {
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* The !important is used to override Bootstrap's default styles. It's best to use it sparingly. */
+}
+
+/* This ensures the color remains white even on hover */
+.navbar-nav .nav-link:hover {
+  color: white !important;
+}
+
+.logo {
+  padding-left: 30px;
+  width: 90px;
+  height: auto;
+}
+
+.navbar-nav {
+  flex-direction: row !important; 
+}
+
+.nav-item {
+  margin-right: 20px; 
+}
+
+#backToTopBtn {
+  margin-right: 20px; 
+  margin-bottom: 20px; 
+}

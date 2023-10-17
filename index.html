@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SK's portfolio</title>
+
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    
+  </head>
+  <body>
+
+    <button type="button" class="btn btn-dark position-fixed bottom-0 end-0" id="backToTopBtn">Top</button>
+
+    <div class="pos-f-t fixed-top">
+      <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4 d-flex justify-content-center"> 
+              <ul class="navbar-nav mb-2 mb-lg-0 d-flex" style="color: white;">
+                  <li class="nav-item">
+                      <a href="#home" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#about" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#portfolio" class="nav-link">Service</a>
+                </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Other Activities
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="https://culturajet.com/">CulturaJet</a></li>
+                          <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100009671836711">Facebook</a></li>
+                          <li><a class="dropdown-item" href="https://www.linkedin.com/in/shohei-kurokawa-84531922b/">LinkedIn</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="image/waikiti.PNG" class="logo" alt="Logo">
+        </a>
+        <span class="ml-3 d-none d-md-inline-block text-white display-4">SK's Portfolio</span>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      </nav>
+    </div>
+  
+  
+  
+    <div data-bs-spy="scroll" data-bs-target="#scrolling_navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+
+      <section class="min-vh-100 d-flex flex-wrap align-content-center" id="home" style="background-image: url('./image/background.jpg'); background-size: cover;">
+        <div class="container d-flex align-items-center py-5">
+            <div class="col text-center bg-light m-4 p-4 text-dark bg-opacity-50 rounded-5 border border-2 border-white">
+              <img src="image/home.jpg" class="img-fluid col-lg-2 col-sm-6 col-xs-6 mb-4" alt=""> 
+              <p class="display-2 text-secondary mb-3">Shohei Kurokawa</p>
+              <p class="text-secondary fs-5 mb-6">Student of BYUH</p>
+              <p class="text-secondary fs-5 mb-6">President of Japan Club</p>
+              <p class="text-secondary fs-5 mb-6">Major: Computer Science</p>
+              <p class="text-secondary fs-5 mb-6">Minors: Entrepreneurship, Foundational Language  (Spanish)</p>
+              <a class="btn btn-success btn-lg active rounded-pill mb-3" href="#about">About</a>
+              <a class="btn btn-success btn-lg active rounded-pill mb-3" href="#contact">Contact</a>
+          </div>
+        </div>
+      </section>
+
+      <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="container py-5" id="about">
+          <div class="text-center py-5">
+              <h2 class="fw-bolder">About</h2>
+              <p class="fs-5">My experience with languages.</p>
+          </div>
+          <div class="row">
+              <div class="col-lg-4" >
+                  <img class="img-fluid rounded-5" src="image/selfie.jpeg">
+              </div>
+              <div class="col-lg-7 offset-lg-1">
+                  <p class="lh-lg mb-6">I am currently majoring CS at BYUH. The languages I have worked with are Python, Java. I am self-taught in HTML, CSS and JS. I am currently studying mainly javascript and java.</p>
+                  <h3 class="fw-bold fs-4">Skills</h3>
+                  <p class="mb-0" >HTML:</p>
+                  <div class="progress mb-3">
+                      <div class="progress-bar progress-bar-striped bg-greenyellow" style="width: 85%;">85%</div>
+                  </div>
+                  <p class="mb-0" >CSS:</p>
+                  <div class="progress mb-3">
+                      <div class="progress-bar progress-bar-striped bg-info" style="width: 75%;">75%</div>
+                  </div>
+                  <p class="mb-0" >JS:</p>
+                  <div class="progress mb-3">
+                      <div class="progress-bar progress-bar-striped bg-warning" style="width: 40%;">40%</div>
+                  </div>
+                  <p class="mb-0" >Java</p>
+                  <div class="progress mb-3">
+                      <div class="progress-bar progress-bar-striped bg-danger" style="width: 70%;">70%</div>
+                  </div>
+                  <p class="mb-0" >Python</p>
+                  <div class="progress mb-3">
+                      <div class="progress-bar progress-bar-striped bg-green" style="width: 75%;">75%</div>
+                  </div>
+              </div>
+
+          </div>
+
+      </section>
+
+      <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="resume">
+          <div class="container">
+              <div class="text-white text-center py-5">
+                  <h2 class="fw-bolder">Resume</h2>
+                  <p class="fs-5">Here's my resume with my experience and background.</p>
+              </div>
+
+              <div class="row pb-4" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                <div class="text-center">
+                  <img src="image/resume.jpg" class="rounded" alt="...">
+                </div> 
+      </section>
+
+      <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="py-5" id="portfolio">
+          <div class="container">
+              <div class="text-center py-5">
+                  <h2 class="fw-bolder">Service</h2>
+                  <p class="fs-5">My team is trying to expand our culture and English learning to the world.</p>
+              </div>
+
+              <div class="row">
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card">
+                          <img src="image/teamweb.png" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title text-center py-2">CulturaJet</h5>
+                              <p>This is our team's website. We will be posting information about the attractions of Hawaii and Australia, as well as effective ways to learn English.</p>
+                              <a href="https://culturajet.com/" class="btn btn-light d-flex justify-content-center" target="_blank" rel="noopener noreferrer">Go to Website</a>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card">
+                          <img src="image/instagram.png" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title text-center py-2">Instagram Page</h5>
+                              <p>We provide useful information about Hawaii and Australia.</p>
+                              <a href="https://www.instagram.com/cultura_jet/" class="btn btn-light d-flex justify-content-center" target="_blank" rel="noopener noreferrer">Go to Instagram</a>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card">
+                          <img src="image/github.png" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title text-center py-2">My Github Page</h5>
+                              <p>I will provide the resources I have created.</p>
+                              <a href="https://github.com/kuro96max" class="btn btn-light d-flex justify-content-center" target="_blank" rel="noopener noreferrer">Check Github</a>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+
+
+          </div>
+      </section>
+
+      <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="contact">
+          <div class="container">
+              <div class="text-white text-center py-5">
+                  <h2 class="fw-bolder">Contact</h2>
+                  <p class="fs-5">If you have any questions or requests, please contact us here.</p>
+              </div>
+
+              <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+                  <form action="process_form.php" method="POST" class="text-white fs-6">
+                      <div class="mb-3">
+                          <label class="form-label text-white">Name</label>
+                          <input type="text" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                          <label class="form-label text-white">Email</label>
+                          <input type="email" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                          <label class="form-label text-white">Subject</label>
+                          <input type="text" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                          <label class="form-label text-white">Message</label>
+                          <textarea type="text" rows="10" class="form-control"></textarea>
+                      </div>
+                      <div class="d-grid gap-2 col-lg-4 col-md-4 mx-auto">
+                          <button type="submit" class="btn btn-success btn-lg rounded-pill">Send</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </section>
+
+      <footer class="bg-light">
+        <div class="container">
+            <p class="copyright-text text-center fs-8 py-4 mb-0">Copyright © 2023 <a class="text-dark" href="https://github.com/kuro96max" target="_blank">@kuro96max</a></p>
+        </div>
+      </footer>
+
+    </div>
+
+    ...
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+    <!-- Include your custom JavaScript -->
+    <script src="js/main.js" defer></script>
+
+    
+    
+
+    
+  </body>
+</html>
