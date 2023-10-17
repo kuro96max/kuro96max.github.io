@@ -45,13 +45,13 @@ let backToTopButton = document.getElementById("backToTopBtn");
 window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
-    if (window.pageYOffset > 300) { // Show backToTopButton
+    if (window.pageYOffset > 300) { 
         if(!backToTopButton.classList.contains("btnEntrance")) {
             backToTopButton.classList.remove("btnExit");
             backToTopButton.classList.add("btnEntrance");
             backToTopButton.style.display = "block";
         }
-    } else { // Hide backToTopButton
+    } else { 
         if(backToTopButton.classList.contains("btnEntrance")) {
             backToTopButton.classList.remove("btnEntrance");
             backToTopButton.classList.add("btnExit");
