@@ -3,6 +3,9 @@
   --color-primary: #2f67ec;
 }
 
+body {
+  padding-top: 65px;
+}
 
 .navbar-icon {
   padding-left: 10px;
